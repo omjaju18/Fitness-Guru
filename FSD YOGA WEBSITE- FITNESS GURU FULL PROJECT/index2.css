@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+}
+.navbar-brand{
+    font-weight: bolder;
+}
+.collapse{
+    justify-content: right;
+    font-weight: bold;
+}
+.button-signout{
+    border-radius: 20px;
+    background-color: #febc1d;
+}
+.q{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 7vh 10vh;
+    font-size: xx-large;
+    font-style: italic;
+    color: red;
+}

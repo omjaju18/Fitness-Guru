@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20vh 10vh;
+}
+.card{
+    margin:5vh;
+}
+h1{
+    font-family: 'Rajdhani', sans-serif;
+    align-content: center;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+}
+.navbar-brand{
+    font-weight: bolder;
+}
+.collapse{
+    justify-content: right;
+    font-weight: bold;
+}
+.button-signout{
+    border-radius: 20px;
+    background-color: #febc1d;
+}
+body{
+    background-image: url("class.jpeg");
+}

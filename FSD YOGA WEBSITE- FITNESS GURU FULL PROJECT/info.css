@@ -1,0 +1,31 @@
+body{
+    background-image: url("info.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    color:black;
+    font-size:large;
+}
+h2.h2{
+    color:white
+}
+p{
+    font-size: large;
+    color:white;
+}
+.navbar{
+    display: flex;
+}
+.navbar-brand{
+    font-weight: bolder;
+}
+.collapse{
+    justify-content: right;
+    font-weight: bold;
+}
+.button-signout{
+    border-radius: 20px;
+    background-color: #febc1d;
+}

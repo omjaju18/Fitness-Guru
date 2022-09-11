@@ -1,0 +1,39 @@
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: -1px -1px 15px 3px rgba(0,0, 0, 0.75);
+}
+
+.content-container{
+    text-align: center;
+}
+.content{
+    padding: 0 50px;
+}
+.image-container{
+    height: 100%;
+}
+.heading{
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.paragraph{
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align:left
+}
+ul{
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align:left;
+}

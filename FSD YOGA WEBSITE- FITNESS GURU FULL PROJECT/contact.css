@@ -1,0 +1,84 @@
+.contact-container{
+    height: 540px;
+    background: url("contact.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact-info-container,
+.contact-form-container{
+    flex-basis: 40%;
+    height: 80%;
+    background: rgba(0, 0, blue, 0.5);
+    display: flex;
+}
+.contact-form,
+.contact-info{
+    margin: auto;
+}
+.contact-info{
+    color:white;
+}
+td{
+    vertical-align: top;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.contact-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.contact-input-container{
+    width:200%;
+    text-align: center;
+}
+.input,.msg-input{
+    width: 60%;
+    margin-bottom: 10px;
+    background: rgba(96, 97, 95, 0.35);
+}
+.input{
+    height: 40px;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+.input:focus, textarea:focus{
+    outline: none;
+    background: rgba(96, 97, 95, 0.6);
+}
+textarea{
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+}
+input[type="email"],
+input[type="text"]{
+  padding-left : 10px;
+}
+h1{
+    color:black;
+    align-content: center;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+}
+.navbar-brand{
+    font-weight: bolder;
+}
+.collapse{
+    justify-content: right;
+    font-weight: bold;
+}
+.button-signout{
+    border-radius: 20px;
+    background-color: #febc1d;
+}
